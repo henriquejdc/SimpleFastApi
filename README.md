@@ -1,4 +1,5 @@
-# fastapi_simple
+# SimpleFastApi
+
 Projeto simples de fastapi de CEPs
 
 
@@ -33,4 +34,3 @@ Testes Unitários:
 ``` 
 MONGO_DB_NAME='db_name'_test pytest tests/
 ```
-# SimpleFastApi
