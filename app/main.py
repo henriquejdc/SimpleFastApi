@@ -82,3 +82,8 @@ async def delete_address(cep: str):
     result = await DB.addresses.delete_one({"cep": cep})
     if result.deleted_count == 0:
         raise CepNotFoundException()
+
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)

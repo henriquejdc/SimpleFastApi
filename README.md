@@ -27,6 +27,7 @@ use 'db_name'
 Iniciar:
 ```
 uvicorn app.main:app --reload
+python app/main.py --reload
 ```
 
 
